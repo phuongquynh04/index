@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	margin: 0;
+	padding: 0;
+}	
+
+#container
+{
+	width: 100%;
+	height: 1500%;
+	background-color: antiquewhite;
+}	
+.header		
+{	
+	width: 100%;
+	height: 800%;
+	background:url(https://www.wallpapers13.com/wp-content/uploads/2016/01/Tropical-beach-at-sunset-nature-background-1920x1200.jpg);
+	background-size: cover;
+}		
+
+
+.banner
+{
+	width: 100%;
+	height: 100px;
+	
+	padding: 0 30px;
+	box-sizing: border-box;
+}	
+
+.logo
+{
+	width: 20%;
+	height: 100px;
+	
+	float: left;
+	
+}	
+
+.menu
+{
+	width: 80%;
+	height: 100px;
+	
+	float: right;
+	
+
+}
+
+.menu ul
+{
+	list-style: none;
+}	
+
+.menu ul li
+{
+	float: left;
+	padding: 30px 50px;
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+	color:black;
+}
+
+.menu ul li:hover
+{
+	background-color:cadetblue;
+}
+.slider
+{
+	width: 100%;
+	height: 700px;
+	text-decoration:none;
+	color:aliceblue;
+	box-sizing: border-box;
+	padding: 200px 100px 100px 700px;
+}
+
+button
+{
+	width: 180px;
+	height: 50px;
+	border-radius: 50px;
+	background-color:antiquewhite;
+	border:none;
+}
+.slider
+{
+	width: 100%;
+	height: 500px;
+}
+
+.one-third 
+{
+	width: 40%;
+	float: left;
+	box-sizing: border-box; 
+	margin-top: 20px;
+}
+.two-third
+{
+	width:60%;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 40px;
+	text-align: right;
+	margin-top: 20px;
+}
+.featured-image
+{
+	max-width: 500px; 
+}
+.no-margin-top
+{
+	margin-top: 0;
+}
+	
+button
+{ 
+	width: 180px;
+	height: 50px;
+	border-radius: 50px;
+	background-color:darkseagreen;
+	border:none;
+	float: right;
+}
+	
+		
